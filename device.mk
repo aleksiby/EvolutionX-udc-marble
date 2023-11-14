@@ -468,6 +468,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.systemhelper@1.0.vendor
 
+# Remove Gapps Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
