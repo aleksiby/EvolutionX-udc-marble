@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aleksiby"
+	   fetch="https://github.com/aleksiby"/>
+
+    <!-- Device Repository -->
+    <project path="device/xiaomi/marble" name="EvolutionX-udc-marble" remote="aleksiby" revision="tiramisu" />
+
+    <!-- Manifest Repository -->
+    <project path="manifest" name="android_manifest" remote="aleksiby" revision="tiramisu" />
+
+    <!-- Remove Project -->
+    <project name="manifest" revision="udc" />
+
+</manifest>
